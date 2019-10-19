@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18342CC22354347D0056EDC8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CC12354347D0056EDC8 /* GameOverViewController.swift */; };
+		18342CC4235470A90056EDC8 /* QuestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CC3235470A90056EDC8 /* QuestManager.swift */; };
+		18342CC62355A6BD0056EDC8 /* suzuki-1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18342CC52355A6BD0056EDC8 /* suzuki-1.mov */; };
+		18342CCA2355E7030056EDC8 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CC92355E7030056EDC8 /* ScoreManager.swift */; };
+		18342CCC235683600056EDC8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CCB235683600056EDC8 /* AlertView.swift */; };
+		18342CCE2356836B0056EDC8 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18342CCD2356836B0056EDC8 /* AlertView.xib */; };
+		183DD331235B1B02003993BD /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = 183DD330235B0E43003993BD /* quests.json */; };
+		18841ACF2352AB8C00237DC7 /* black-1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18C188642351B111005E2173 /* black-1.mov */; };
+		18841AD12352EF6300237DC7 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AD02352EF6300237DC7 /* StartButton.swift */; };
+		18841AD32352F24400237DC7 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AD22352F24400237DC7 /* StatusView.swift */; };
+		18841AD52352F24F00237DC7 /* StatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18841AD42352F24F00237DC7 /* StatusView.xib */; };
+		18841AD82352F5B200237DC7 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AD72352F5B200237DC7 /* AutoLayout.swift */; };
+		18841ADA2352F8D000237DC7 /* RemainTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AD92352F8D000237DC7 /* RemainTimerManager.swift */; };
+		18841ADC2352FEE700237DC7 /* Sttings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841ADB2352FEE700237DC7 /* Sttings.swift */; };
+		18841ADE23531B1E00237DC7 /* ChoiseAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841ADD23531B1E00237DC7 /* ChoiseAnswerView.swift */; };
+		18841AE023531B3400237DC7 /* ChoiseAnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18841ADF23531B3400237DC7 /* ChoiseAnswerView.xib */; };
+		18841AE52353222E00237DC7 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AE42353222E00237DC7 /* AnswerButton.swift */; };
+		18841AE723533B7000237DC7 /* ShowableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AE623533B7000237DC7 /* ShowableView.swift */; };
+		18841AE923534DD200237DC7 /* GuideWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841AE823534DD200237DC7 /* GuideWayView.swift */; };
+		18841AEB23534DDE00237DC7 /* GuideWayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18841AEA23534DDE00237DC7 /* GuideWayView.xib */; };
+		18C188532351AD48005E2173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C188522351AD48005E2173 /* AppDelegate.swift */; };
+		18C188552351AD48005E2173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C188542351AD48005E2173 /* ViewController.swift */; };
+		18C188582351AD48005E2173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C188562351AD48005E2173 /* Main.storyboard */; };
+		18C1885A2351AD4B005E2173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C188592351AD4B005E2173 /* Assets.xcassets */; };
+		18C1885D2351AD4B005E2173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1885B2351AD4B005E2173 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18342CC12354347D0056EDC8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		18342CC3235470A90056EDC8 /* QuestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestManager.swift; sourceTree = "<group>"; };
+		18342CC52355A6BD0056EDC8 /* suzuki-1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "suzuki-1.mov"; sourceTree = "<group>"; };
+		18342CC92355E7030056EDC8 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
+		18342CCB235683600056EDC8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		18342CCD2356836B0056EDC8 /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		183DD330235B0E43003993BD /* quests.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quests.json; sourceTree = "<group>"; };
+		18841AD02352EF6300237DC7 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		18841AD22352F24400237DC7 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		18841AD42352F24F00237DC7 /* StatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusView.xib; sourceTree = "<group>"; };
+		18841AD72352F5B200237DC7 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		18841AD92352F8D000237DC7 /* RemainTimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainTimerManager.swift; sourceTree = "<group>"; };
+		18841ADB2352FEE700237DC7 /* Sttings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sttings.swift; sourceTree = "<group>"; };
+		18841ADD23531B1E00237DC7 /* ChoiseAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseAnswerView.swift; sourceTree = "<group>"; };
+		18841ADF23531B3400237DC7 /* ChoiseAnswerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoiseAnswerView.xib; sourceTree = "<group>"; };
+		18841AE42353222E00237DC7 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		18841AE623533B7000237DC7 /* ShowableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowableView.swift; sourceTree = "<group>"; };
+		18841AE823534DD200237DC7 /* GuideWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideWayView.swift; sourceTree = "<group>"; };
+		18841AEA23534DDE00237DC7 /* GuideWayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideWayView.xib; sourceTree = "<group>"; };
+		18C1884F2351AD48005E2173 /* ARAR探検隊.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARAR探検隊.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C188522351AD48005E2173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C188542351AD48005E2173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C188572351AD48005E2173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C188592351AD4B005E2173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C1885C2351AD4B005E2173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C1885E2351AD4B005E2173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C188642351B111005E2173 /* black-1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "black-1.mov"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C1884C2351AD48005E2173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18342CCF235683710056EDC8 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				18342CCB235683600056EDC8 /* AlertView.swift */,
+				18342CCD2356836B0056EDC8 /* AlertView.xib */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		18841AD62352F25700237DC7 /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				18841AD22352F24400237DC7 /* StatusView.swift */,
+				18841AD42352F24F00237DC7 /* StatusView.xib */,
+			);
+			path = StatusView;
+			sourceTree = "<group>";
+		};
+		18841AE123531B3A00237DC7 /* ChoiseAnswerView */ = {
+			isa = PBXGroup;
+			children = (
+				18841ADD23531B1E00237DC7 /* ChoiseAnswerView.swift */,
+				18841ADF23531B3400237DC7 /* ChoiseAnswerView.xib */,
+				18841AE42353222E00237DC7 /* AnswerButton.swift */,
+			);
+			path = ChoiseAnswerView;
+			sourceTree = "<group>";
+		};
+		18841AEC23534DEE00237DC7 /* GuideWayView */ = {
+			isa = PBXGroup;
+			children = (
+				18841AE823534DD200237DC7 /* GuideWayView.swift */,
+				18841AEA23534DDE00237DC7 /* GuideWayView.xib */,
+			);
+			path = GuideWayView;
+			sourceTree = "<group>";
+		};
+		18C188462351AD48005E2173 = {
+			isa = PBXGroup;
+			children = (
+				18C188512351AD48005E2173 /* arar-tankentai */,
+				18C188502351AD48005E2173 /* Products */,
+			);
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		18C188502351AD48005E2173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C1884F2351AD48005E2173 /* ARAR探検隊.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C188512351AD48005E2173 /* arar-tankentai */ = {
+			isa = PBXGroup;
+			children = (
+				18C188522351AD48005E2173 /* AppDelegate.swift */,
+				18841AD72352F5B200237DC7 /* AutoLayout.swift */,
+				18C188542351AD48005E2173 /* ViewController.swift */,
+				18342CC12354347D0056EDC8 /* GameOverViewController.swift */,
+				18841ADB2352FEE700237DC7 /* Sttings.swift */,
+				18841AD92352F8D000237DC7 /* RemainTimerManager.swift */,
+				18342CC3235470A90056EDC8 /* QuestManager.swift */,
+				183DD330235B0E43003993BD /* quests.json */,
+				18342CC92355E7030056EDC8 /* ScoreManager.swift */,
+				18841AD02352EF6300237DC7 /* StartButton.swift */,
+				18841AE623533B7000237DC7 /* ShowableView.swift */,
+				18841AEC23534DEE00237DC7 /* GuideWayView */,
+				18841AE123531B3A00237DC7 /* ChoiseAnswerView */,
+				18841AD62352F25700237DC7 /* StatusView */,
+				18342CCF235683710056EDC8 /* AlertView */,
+				18C188562351AD48005E2173 /* Main.storyboard */,
+				18C188592351AD4B005E2173 /* Assets.xcassets */,
+				18C1885B2351AD4B005E2173 /* LaunchScreen.storyboard */,
+				18C1885E2351AD4B005E2173 /* Info.plist */,
+				18C188642351B111005E2173 /* black-1.mov */,
+				18342CC52355A6BD0056EDC8 /* suzuki-1.mov */,
+			);
+			path = "arar-tankentai";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C1884E2351AD48005E2173 /* arar-tankentai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C188612351AD4B005E2173 /* Build configuration list for PBXNativeTarget "arar-tankentai" */;
+			buildPhases = (
+				18C1884B2351AD48005E2173 /* Sources */,
+				18C1884C2351AD48005E2173 /* Frameworks */,
+				18C1884D2351AD48005E2173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "arar-tankentai";
+			productName = "arar-tankentai";
+			productReference = 18C1884F2351AD48005E2173 /* ARAR探検隊.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C188472351AD48005E2173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Kaito Hattori";
+				TargetAttributes = {
+					18C1884E2351AD48005E2173 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 18C1884A2351AD48005E2173 /* Build configuration list for PBXProject "arar-tankentai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C188462351AD48005E2173;
+			productRefGroup = 18C188502351AD48005E2173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C1884E2351AD48005E2173 /* arar-tankentai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C1884D2351AD48005E2173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1885D2351AD4B005E2173 /* LaunchScreen.storyboard in Resources */,
+				18841AEB23534DDE00237DC7 /* GuideWayView.xib in Resources */,
+				18342CC62355A6BD0056EDC8 /* suzuki-1.mov in Resources */,
+				18C1885A2351AD4B005E2173 /* Assets.xcassets in Resources */,
+				18841AD52352F24F00237DC7 /* StatusView.xib in Resources */,
+				18C188582351AD48005E2173 /* Main.storyboard in Resources */,
+				18342CCE2356836B0056EDC8 /* AlertView.xib in Resources */,
+				18841AE023531B3400237DC7 /* ChoiseAnswerView.xib in Resources */,
+				18841ACF2352AB8C00237DC7 /* black-1.mov in Resources */,
+				183DD331235B1B02003993BD /* quests.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C1884B2351AD48005E2173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C188552351AD48005E2173 /* ViewController.swift in Sources */,
+				18841ADC2352FEE700237DC7 /* Sttings.swift in Sources */,
+				18C188532351AD48005E2173 /* AppDelegate.swift in Sources */,
+				18841AD32352F24400237DC7 /* StatusView.swift in Sources */,
+				18841AD82352F5B200237DC7 /* AutoLayout.swift in Sources */,
+				18342CCC235683600056EDC8 /* AlertView.swift in Sources */,
+				18841AE723533B7000237DC7 /* ShowableView.swift in Sources */,
+				18342CCA2355E7030056EDC8 /* ScoreManager.swift in Sources */,
+				18342CC4235470A90056EDC8 /* QuestManager.swift in Sources */,
+				18841AE52353222E00237DC7 /* AnswerButton.swift in Sources */,
+				18841AD12352EF6300237DC7 /* StartButton.swift in Sources */,
+				18342CC22354347D0056EDC8 /* GameOverViewController.swift in Sources */,
+				18841AE923534DD200237DC7 /* GuideWayView.swift in Sources */,
+				18841ADE23531B1E00237DC7 /* ChoiseAnswerView.swift in Sources */,
+				18841ADA2352F8D000237DC7 /* RemainTimerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C188562351AD48005E2173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C188572351AD48005E2173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C1885B2351AD4B005E2173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C1885C2351AD4B005E2173 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C1885F2351AD4B005E2173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C188602351AD4B005E2173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C188622351AD4B005E2173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF4PY56C4U;
+				INFOPLIST_FILE = "arar-tankentai/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kaichan394.arar-tankentai";
+				PRODUCT_NAME = "ARAR探検隊";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C188632351AD4B005E2173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF4PY56C4U;
+				INFOPLIST_FILE = "arar-tankentai/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kaichan394.arar-tankentai";
+				PRODUCT_NAME = "ARAR探検隊";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C1884A2351AD48005E2173 /* Build configuration list for PBXProject "arar-tankentai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C1885F2351AD4B005E2173 /* Debug */,
+				18C188602351AD4B005E2173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C188612351AD4B005E2173 /* Build configuration list for PBXNativeTarget "arar-tankentai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C188622351AD4B005E2173 /* Debug */,
+				18C188632351AD4B005E2173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C188472351AD48005E2173 /* Project object */;
+}

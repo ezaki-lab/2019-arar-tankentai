@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StatusView" customModule="ARAR探検隊" customModuleProvider="target">
+            <connections>
+                <outlet property="mainView" destination="Bbe-np-1UP" id="caD-VY-x6o"/>
+                <outlet property="statusLabel" destination="dr8-zk-nKO" id="3GB-L0-ufo"/>
+                <outlet property="titleLabel" destination="YTF-7d-3fD" id="JkF-s0-81A"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bbe-np-1UP">
+                    <rect key="frame" x="0.0" y="0.0" width="170" height="80"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dr8-zk-nKO">
+                            <rect key="frame" x="72.666666666666671" y="26" width="25" height="48"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTF-7d-3fD">
+                            <rect key="frame" x="70" y="10" width="30" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="dr8-zk-nKO" firstAttribute="centerX" secondItem="Bbe-np-1UP" secondAttribute="centerX" id="Dmc-19-2ex"/>
+                        <constraint firstItem="dr8-zk-nKO" firstAttribute="centerY" secondItem="Bbe-np-1UP" secondAttribute="centerY" constant="10" id="Fbs-C1-qVc"/>
+                        <constraint firstItem="YTF-7d-3fD" firstAttribute="centerX" secondItem="Bbe-np-1UP" secondAttribute="centerX" id="ZUi-0l-taw"/>
+                        <constraint firstItem="dr8-zk-nKO" firstAttribute="top" secondItem="YTF-7d-3fD" secondAttribute="bottom" constant="-2" id="gvJ-nW-G9A"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Bbe-np-1UP" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="1vA-Uj-iN9"/>
+                <constraint firstItem="Bbe-np-1UP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DpY-Zg-EC7"/>
+                <constraint firstItem="Bbe-np-1UP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Y2w-mZ-pdY"/>
+                <constraint firstItem="Bbe-np-1UP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uay-4v-16c"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-326.08695652173918" y="237.72321428571428"/>
+        </view>
+    </objects>
+</document>
