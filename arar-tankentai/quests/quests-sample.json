@@ -1,0 +1,10 @@
+[
+    {
+      "location": "ブラック号館",
+      "question": "これはだれでしょう？",
+      "answer": "シリウス・ブラック",
+      "answerCandidates": ["ヴォルデモート", "シリウス・ブラック", "ハリー・ポッター", "ロン・ウィーズリー"],
+      "answerDescription": "",
+      "fileName": "black-1",
+    },
+]
