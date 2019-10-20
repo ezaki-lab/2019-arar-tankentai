@@ -1,3 +1,8 @@
+# ARAR探検隊
+
+## quests.jsonをこのフォルダーに置く
+
+``` quests.json
 [
     {
       "location": "３号館２階",
@@ -16,3 +21,4 @@
       "fileName": "black-1",
     },
 ]
+```

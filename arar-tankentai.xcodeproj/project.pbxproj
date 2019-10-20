@@ -93,6 +93,14 @@
 			path = videos;
 			sourceTree = "<group>";
 		};
+		183DD333235BF0C9003993BD /* quests */ = {
+			isa = PBXGroup;
+			children = (
+				183DD330235B0E43003993BD /* quests.json */,
+			);
+			path = quests;
+			sourceTree = "<group>";
+		};
 		18841AD62352F25700237DC7 /* StatusView */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +156,7 @@
 				18841ADB2352FEE700237DC7 /* Sttings.swift */,
 				18841AD92352F8D000237DC7 /* RemainTimerManager.swift */,
 				18342CC3235470A90056EDC8 /* QuestManager.swift */,
-				183DD330235B0E43003993BD /* quests.json */,
+				183DD333235BF0C9003993BD /* quests */,
 				18342CC92355E7030056EDC8 /* ScoreManager.swift */,
 				18841AD02352EF6300237DC7 /* StartButton.swift */,
 				18841AE623533B7000237DC7 /* ShowableView.swift */,
