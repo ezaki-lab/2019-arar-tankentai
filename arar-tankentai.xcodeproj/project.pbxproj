@@ -84,6 +84,15 @@
 			path = AlertView;
 			sourceTree = "<group>";
 		};
+		183DD332235BEEE1003993BD /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				18C188642351B111005E2173 /* black-1.mov */,
+				18342CC52355A6BD0056EDC8 /* suzuki-1.mov */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
 		18841AD62352F25700237DC7 /* StatusView */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,8 +160,7 @@
 				18C188592351AD4B005E2173 /* Assets.xcassets */,
 				18C1885B2351AD4B005E2173 /* LaunchScreen.storyboard */,
 				18C1885E2351AD4B005E2173 /* Info.plist */,
-				18C188642351B111005E2173 /* black-1.mov */,
-				18342CC52355A6BD0056EDC8 /* suzuki-1.mov */,
+				183DD332235BEEE1003993BD /* videos */,
 			);
 			path = "arar-tankentai";
 			sourceTree = "<group>";
