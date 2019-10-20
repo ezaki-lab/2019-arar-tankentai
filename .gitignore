@@ -29,4 +29,4 @@ DerivedData/
 ## For My Project
 /arar-tankentai/videos/*mov
 /arar-tankentai/Assets.xcassets/AR Resources.arresourcegroup/*
-
+/arar-tankentai/quests/quests.json
