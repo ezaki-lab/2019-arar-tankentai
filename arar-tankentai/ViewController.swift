@@ -152,7 +152,7 @@ extension ViewController: ARSCNViewDelegate {
         guard let imageAnchorName = imageAnchor.referenceImage.name else {
             return
         }
-        guard let fileUrlString = Bundle.main.path(forResource: fileName, ofType: "mov") else {
+        guard let fileUrlString = Bundle.main.path(forResource: fileName, ofType: "mp4") else {
             return
         }
 
@@ -183,7 +183,7 @@ extension ViewController: ARSCNViewDelegate {
         self.videoPlayer = AVPlayer(playerItem: videoItem)
         self.videoPlayer.play()
         
-        let size = CGSize(width: 640, height: 640)
+        let size = CGSize(width: 512, height: 512)
         let videoScene = SKScene(size: size)
         
         let videoPlayerNode = SKVideoNode(avPlayer: self.videoPlayer)

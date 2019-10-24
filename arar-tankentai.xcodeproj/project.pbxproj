@@ -7,9 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180D6E3823618FBE00762C43 /* izue-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3623618FA000762C43 /* izue-1.mp4 */; };
+		180D6E3923618FBE00762C43 /* izue-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2523618F9F00762C43 /* izue-2.mp4 */; };
+		180D6E3A23618FBE00762C43 /* kim-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2A23618F9F00762C43 /* kim-1.mp4 */; };
+		180D6E3B23618FBE00762C43 /* kim-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2F23618FA000762C43 /* kim-2.mp4 */; };
+		180D6E3C23618FBE00762C43 /* komori-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2123618F9F00762C43 /* komori-1.mp4 */; };
+		180D6E3D23618FBE00762C43 /* masuyama-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2623618F9F00762C43 /* masuyama-1.mp4 */; };
+		180D6E3E23618FBE00762C43 /* masuyama-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3423618FA000762C43 /* masuyama-2.mp4 */; };
+		180D6E3F23618FBE00762C43 /* nakai-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3123618FA000762C43 /* nakai-1.mp4 */; };
+		180D6E4023618FBE00762C43 /* nakai-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3723618FA000762C43 /* nakai-2.mp4 */; };
+		180D6E4123618FBE00762C43 /* sawada-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3323618FA000762C43 /* sawada-1.mp4 */; };
+		180D6E4223618FBE00762C43 /* sawada-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2323618F9F00762C43 /* sawada-2.mp4 */; };
+		180D6E4323618FBE00762C43 /* shigenaga-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2E23618FA000762C43 /* shigenaga-1.mp4 */; };
+		180D6E4423618FBE00762C43 /* shigenaga-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2723618F9F00762C43 /* shigenaga-2.mp4 */; };
+		180D6E4523618FBE00762C43 /* shimaoka-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2C23618FA000762C43 /* shimaoka-1.mp4 */; };
+		180D6E4623618FBE00762C43 /* shimaoka-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2923618F9F00762C43 /* shimaoka-2.mp4 */; };
+		180D6E4723618FBE00762C43 /* suzuki-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3223618FA000762C43 /* suzuki-1.mp4 */; };
+		180D6E4823618FBE00762C43 /* suzuki-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3523618FA000762C43 /* suzuki-2.mp4 */; };
+		180D6E4923618FBE00762C43 /* tsuchida-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2423618F9F00762C43 /* tsuchida-1.mp4 */; };
+		180D6E4A23618FBE00762C43 /* tsuchida-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2D23618FA000762C43 /* tsuchida-2.mp4 */; };
+		180D6E4B23618FBE00762C43 /* woods-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2B23618FA000762C43 /* woods-1.mp4 */; };
+		180D6E4C23618FBE00762C43 /* woods-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2023618F9F00762C43 /* woods-2.mp4 */; };
+		180D6E4D23618FBE00762C43 /* yoshida-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E1F23618F9F00762C43 /* yoshida-1.mp4 */; };
+		180D6E4E23618FBE00762C43 /* yoshida-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E3023618FA000762C43 /* yoshida-2.mp4 */; };
+		180D6E4F23618FBE00762C43 /* yoshioka-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2223618F9F00762C43 /* yoshioka-1.mp4 */; };
+		180D6E5023618FBE00762C43 /* yoshioka-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 180D6E2823618F9F00762C43 /* yoshioka-2.mp4 */; };
 		18342CC22354347D0056EDC8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CC12354347D0056EDC8 /* GameOverViewController.swift */; };
 		18342CC4235470A90056EDC8 /* QuestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CC3235470A90056EDC8 /* QuestManager.swift */; };
-		18342CC62355A6BD0056EDC8 /* suzuki-1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18342CC52355A6BD0056EDC8 /* suzuki-1.mov */; };
 		18342CCA2355E7030056EDC8 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CC92355E7030056EDC8 /* ScoreManager.swift */; };
 		18342CCC235683600056EDC8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18342CCB235683600056EDC8 /* AlertView.swift */; };
 		18342CCE2356836B0056EDC8 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18342CCD2356836B0056EDC8 /* AlertView.xib */; };
@@ -37,9 +61,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180D6E1F23618F9F00762C43 /* yoshida-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yoshida-1.mp4"; sourceTree = "<group>"; };
+		180D6E2023618F9F00762C43 /* woods-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "woods-2.mp4"; sourceTree = "<group>"; };
+		180D6E2123618F9F00762C43 /* komori-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "komori-1.mp4"; sourceTree = "<group>"; };
+		180D6E2223618F9F00762C43 /* yoshioka-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yoshioka-1.mp4"; sourceTree = "<group>"; };
+		180D6E2323618F9F00762C43 /* sawada-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sawada-2.mp4"; sourceTree = "<group>"; };
+		180D6E2423618F9F00762C43 /* tsuchida-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tsuchida-1.mp4"; sourceTree = "<group>"; };
+		180D6E2523618F9F00762C43 /* izue-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "izue-2.mp4"; sourceTree = "<group>"; };
+		180D6E2623618F9F00762C43 /* masuyama-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "masuyama-1.mp4"; sourceTree = "<group>"; };
+		180D6E2723618F9F00762C43 /* shigenaga-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shigenaga-2.mp4"; sourceTree = "<group>"; };
+		180D6E2823618F9F00762C43 /* yoshioka-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yoshioka-2.mp4"; sourceTree = "<group>"; };
+		180D6E2923618F9F00762C43 /* shimaoka-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shimaoka-2.mp4"; sourceTree = "<group>"; };
+		180D6E2A23618F9F00762C43 /* kim-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kim-1.mp4"; sourceTree = "<group>"; };
+		180D6E2B23618FA000762C43 /* woods-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "woods-1.mp4"; sourceTree = "<group>"; };
+		180D6E2C23618FA000762C43 /* shimaoka-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shimaoka-1.mp4"; sourceTree = "<group>"; };
+		180D6E2D23618FA000762C43 /* tsuchida-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tsuchida-2.mp4"; sourceTree = "<group>"; };
+		180D6E2E23618FA000762C43 /* shigenaga-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shigenaga-1.mp4"; sourceTree = "<group>"; };
+		180D6E2F23618FA000762C43 /* kim-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kim-2.mp4"; sourceTree = "<group>"; };
+		180D6E3023618FA000762C43 /* yoshida-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yoshida-2.mp4"; sourceTree = "<group>"; };
+		180D6E3123618FA000762C43 /* nakai-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nakai-1.mp4"; sourceTree = "<group>"; };
+		180D6E3223618FA000762C43 /* suzuki-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "suzuki-1.mp4"; sourceTree = "<group>"; };
+		180D6E3323618FA000762C43 /* sawada-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sawada-1.mp4"; sourceTree = "<group>"; };
+		180D6E3423618FA000762C43 /* masuyama-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "masuyama-2.mp4"; sourceTree = "<group>"; };
+		180D6E3523618FA000762C43 /* suzuki-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "suzuki-2.mp4"; sourceTree = "<group>"; };
+		180D6E3623618FA000762C43 /* izue-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "izue-1.mp4"; sourceTree = "<group>"; };
+		180D6E3723618FA000762C43 /* nakai-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nakai-2.mp4"; sourceTree = "<group>"; };
 		18342CC12354347D0056EDC8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		18342CC3235470A90056EDC8 /* QuestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestManager.swift; sourceTree = "<group>"; };
-		18342CC52355A6BD0056EDC8 /* suzuki-1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "suzuki-1.mov"; sourceTree = "<group>"; };
 		18342CC92355E7030056EDC8 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 		18342CCB235683600056EDC8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		18342CCD2356836B0056EDC8 /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
@@ -93,8 +141,32 @@
 		183DD332235BEEE1003993BD /* videos */ = {
 			isa = PBXGroup;
 			children = (
+				180D6E3623618FA000762C43 /* izue-1.mp4 */,
+				180D6E2523618F9F00762C43 /* izue-2.mp4 */,
+				180D6E2A23618F9F00762C43 /* kim-1.mp4 */,
+				180D6E2F23618FA000762C43 /* kim-2.mp4 */,
+				180D6E2123618F9F00762C43 /* komori-1.mp4 */,
+				180D6E2623618F9F00762C43 /* masuyama-1.mp4 */,
+				180D6E3423618FA000762C43 /* masuyama-2.mp4 */,
+				180D6E3123618FA000762C43 /* nakai-1.mp4 */,
+				180D6E3723618FA000762C43 /* nakai-2.mp4 */,
+				180D6E3323618FA000762C43 /* sawada-1.mp4 */,
+				180D6E2323618F9F00762C43 /* sawada-2.mp4 */,
+				180D6E2E23618FA000762C43 /* shigenaga-1.mp4 */,
+				180D6E2723618F9F00762C43 /* shigenaga-2.mp4 */,
+				180D6E2C23618FA000762C43 /* shimaoka-1.mp4 */,
+				180D6E2923618F9F00762C43 /* shimaoka-2.mp4 */,
+				180D6E3223618FA000762C43 /* suzuki-1.mp4 */,
+				180D6E3523618FA000762C43 /* suzuki-2.mp4 */,
+				180D6E2423618F9F00762C43 /* tsuchida-1.mp4 */,
+				180D6E2D23618FA000762C43 /* tsuchida-2.mp4 */,
+				180D6E2B23618FA000762C43 /* woods-1.mp4 */,
+				180D6E2023618F9F00762C43 /* woods-2.mp4 */,
+				180D6E1F23618F9F00762C43 /* yoshida-1.mp4 */,
+				180D6E3023618FA000762C43 /* yoshida-2.mp4 */,
+				180D6E2223618F9F00762C43 /* yoshioka-1.mp4 */,
+				180D6E2823618F9F00762C43 /* yoshioka-2.mp4 */,
 				18C188642351B111005E2173 /* black-1.mov */,
-				18342CC52355A6BD0056EDC8 /* suzuki-1.mov */,
 			);
 			path = videos;
 			sourceTree = "<group>";
@@ -240,9 +312,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180D6E3823618FBE00762C43 /* izue-1.mp4 in Resources */,
+				180D6E3923618FBE00762C43 /* izue-2.mp4 in Resources */,
+				180D6E3A23618FBE00762C43 /* kim-1.mp4 in Resources */,
+				180D6E3B23618FBE00762C43 /* kim-2.mp4 in Resources */,
+				180D6E3C23618FBE00762C43 /* komori-1.mp4 in Resources */,
+				180D6E3D23618FBE00762C43 /* masuyama-1.mp4 in Resources */,
+				180D6E3E23618FBE00762C43 /* masuyama-2.mp4 in Resources */,
+				180D6E3F23618FBE00762C43 /* nakai-1.mp4 in Resources */,
+				180D6E4023618FBE00762C43 /* nakai-2.mp4 in Resources */,
+				180D6E4123618FBE00762C43 /* sawada-1.mp4 in Resources */,
+				180D6E4223618FBE00762C43 /* sawada-2.mp4 in Resources */,
+				180D6E4323618FBE00762C43 /* shigenaga-1.mp4 in Resources */,
+				180D6E4423618FBE00762C43 /* shigenaga-2.mp4 in Resources */,
+				180D6E4523618FBE00762C43 /* shimaoka-1.mp4 in Resources */,
+				180D6E4623618FBE00762C43 /* shimaoka-2.mp4 in Resources */,
+				180D6E4723618FBE00762C43 /* suzuki-1.mp4 in Resources */,
+				180D6E4823618FBE00762C43 /* suzuki-2.mp4 in Resources */,
+				180D6E4923618FBE00762C43 /* tsuchida-1.mp4 in Resources */,
+				180D6E4A23618FBE00762C43 /* tsuchida-2.mp4 in Resources */,
+				180D6E4B23618FBE00762C43 /* woods-1.mp4 in Resources */,
+				180D6E4C23618FBE00762C43 /* woods-2.mp4 in Resources */,
+				180D6E4D23618FBE00762C43 /* yoshida-1.mp4 in Resources */,
+				180D6E4E23618FBE00762C43 /* yoshida-2.mp4 in Resources */,
+				180D6E4F23618FBE00762C43 /* yoshioka-1.mp4 in Resources */,
+				180D6E5023618FBE00762C43 /* yoshioka-2.mp4 in Resources */,
 				18C1885D2351AD4B005E2173 /* LaunchScreen.storyboard in Resources */,
 				18841AEB23534DDE00237DC7 /* GuideWayView.xib in Resources */,
-				18342CC62355A6BD0056EDC8 /* suzuki-1.mov in Resources */,
 				18C1885A2351AD4B005E2173 /* Assets.xcassets in Resources */,
 				18841AD52352F24F00237DC7 /* StatusView.xib in Resources */,
 				18C188582351AD48005E2173 /* Main.storyboard in Resources */,
@@ -442,7 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.0.3;
+				CURRENT_PROJECT_VERSION = 1.0.0.4;
 				DEVELOPMENT_TEAM = UF4PY56C4U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.0.3;
+				CURRENT_PROJECT_VERSION = 1.0.0.4;
 				DEVELOPMENT_TEAM = UF4PY56C4U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

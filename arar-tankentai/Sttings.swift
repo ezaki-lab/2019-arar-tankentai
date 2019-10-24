@@ -8,4 +8,4 @@
 
 import Foundation
 
-let GAME_OVER_TIME = 600
+let GAME_OVER_TIME = 900
