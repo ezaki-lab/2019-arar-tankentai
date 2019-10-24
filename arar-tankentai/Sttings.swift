@@ -9,3 +9,8 @@
 import Foundation
 
 let GAME_OVER_TIME = 900
+
+let DEFAULT_SCORE = 100.0
+let MAX_SCORE = 150
+let MIN_SCORE = 50
+let AVERAGE_ASKING_TIME = 15

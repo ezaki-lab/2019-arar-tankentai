@@ -32,6 +32,7 @@ class QuestManager {
     
     var questList: [Quest] = []
     var pastQuestIndexList: [Int] = []
+    var startTime: Date!
     
     init() {
         self.loadJson(fileName: "quests")
@@ -91,5 +92,21 @@ class QuestManager {
         } while self.pastQuestIndexList.contains(randIndex)
         self.pastQuestIndexList.append(randIndex)
         return self.questList[randIndex]
+    }
+    
+    
+    func startAsking() {
+        self.startTime = Date()
+    }
+    
+    func endAsking() -> Int {
+        if self.startTime == nil {
+            return 100000
+        }
+        
+        let elapsed = Date().timeIntervalSince(self.startTime)
+        self.startTime = nil
+        let duration = Int(elapsed)
+        return duration
     }
 }

@@ -112,11 +112,13 @@ extension ViewController: RemainTimerManagerDelegate {
 extension ViewController: ChoiseAnswerViewDelegate {
     
     func choiseAnswerView(_ choiseAnswerView: ChoiseAnswerView, didSelectAnswerAt index: Int) {
+        let askingTime = questManager.endAsking()
+        
         if self.currentQuest.answer == self.currentQuest.answerCandidates[index] {
             let message = "おめでとう！\n\(self.currentQuest.answerDescription)"
             self.alertView.show(title: "正解！", message: message)
             
-            scoreManager.add(askingTime: 0)
+            scoreManager.add(askingTime: askingTime)
             self.scoreView.status = String(scoreManager.score)
         }
         else {
@@ -168,6 +170,7 @@ extension ViewController: ARSCNViewDelegate {
                         self.choiseView.showUp(delay: 1.0)
                     }
                 }
+                questManager.startAsking()
             }
         }
         else {
