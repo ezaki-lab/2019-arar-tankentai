@@ -4,11 +4,6 @@
     "author" : "xcode"
   },
   "resources" : [
-    {
-      "filename" : "black-1.arreferenceimage"
-    },
-    {
-      "filename" : "suzuki-1.arreferenceimage"
-    }
+
   ]
 }
