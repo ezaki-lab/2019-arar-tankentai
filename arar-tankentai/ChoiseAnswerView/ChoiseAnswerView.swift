@@ -25,7 +25,7 @@ class ChoiseAnswerView: ShowableView {
     
     var question: String = "Q." {
         didSet {
-            self.questionLabel.text = self.question
+            self.questionLabel.text = "Q. \(self.question)"
         }
     }
     

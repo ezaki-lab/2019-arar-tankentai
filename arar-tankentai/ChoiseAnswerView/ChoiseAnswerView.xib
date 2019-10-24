@@ -20,17 +20,17 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="209"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bA-Sz-iXx" userLabel="Qestion and answers View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                    <rect key="frame" x="0.0" y="-1" width="414" height="190"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ry2-hd-etC">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PJ-oA-DZx">
-                                    <rect key="frame" x="15" y="8" width="384" height="24"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PJ-oA-DZx">
+                                    <rect key="frame" x="15" y="28" width="384" height="24"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -40,33 +40,33 @@
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="8PJ-oA-DZx" secondAttribute="trailing" constant="15" id="Ind-lv-Uz8"/>
                                 <constraint firstItem="8PJ-oA-DZx" firstAttribute="centerY" secondItem="Ry2-hd-etC" secondAttribute="centerY" id="S58-tG-Q9c"/>
-                                <constraint firstAttribute="height" constant="40" id="eDA-4J-C7O"/>
+                                <constraint firstAttribute="height" constant="80" id="eDA-4J-C7O"/>
                                 <constraint firstItem="8PJ-oA-DZx" firstAttribute="leading" secondItem="Ry2-hd-etC" secondAttribute="leading" constant="15" id="ydb-DX-OVG"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="za8-E0-qAm" userLabel="Space H">
-                            <rect key="frame" x="0.0" y="40" width="15" height="120"/>
+                            <rect key="frame" x="0.0" y="80" width="15" height="110"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="15" id="8ot-D4-bPx"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uS-QE-M8p" userLabel="Space H">
-                            <rect key="frame" x="199.5" y="40" width="15" height="120"/>
+                            <rect key="frame" x="199.5" y="80" width="15" height="110"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewM-hJ-hyu" userLabel="Space H">
-                            <rect key="frame" x="399" y="40" width="15" height="120"/>
+                            <rect key="frame" x="399" y="80" width="15" height="110"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2PU-Gt-INz" userLabel="Space V">
-                            <rect key="frame" x="0.0" y="40" width="414" height="6.5"/>
+                            <rect key="frame" x="0.0" y="80" width="414" height="3.5"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7k-Wp-NEV" userLabel="Space V">
-                            <rect key="frame" x="0.0" y="96.5" width="414" height="7"/>
+                            <rect key="frame" x="0.0" y="133.5" width="414" height="3"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qVQ-a9-wnL" userLabel="Space V">
-                            <rect key="frame" x="0.0" y="153.5" width="414" height="6.5"/>
+                            <rect key="frame" x="0.0" y="186.5" width="414" height="3.5"/>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYz-pK-XcF" customClass="AnswerButton" customModule="ARAR探検隊" customModuleProvider="target">
-                            <rect key="frame" x="15" y="46.5" width="184.5" height="50"/>
+                            <rect key="frame" x="15" y="83.5" width="184.5" height="50"/>
                             <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="sp6-fs-43g"/>
@@ -79,7 +79,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w5-J9-5SJ" customClass="AnswerButton" customModule="ARAR探検隊" customModuleProvider="target">
-                            <rect key="frame" x="214.5" y="46.5" width="184.5" height="50"/>
+                            <rect key="frame" x="214.5" y="83.5" width="184.5" height="50"/>
                             <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Answer2">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,7 +89,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGm-NT-rp2" customClass="AnswerButton" customModule="ARAR探検隊" customModuleProvider="target">
-                            <rect key="frame" x="15" y="103.5" width="184.5" height="50"/>
+                            <rect key="frame" x="15" y="136.5" width="184.5" height="50"/>
                             <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Answer3">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -99,7 +99,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qk-gv-XGp" customClass="AnswerButton" customModule="ARAR探検隊" customModuleProvider="target">
-                            <rect key="frame" x="214.5" y="103.5" width="184.5" height="50"/>
+                            <rect key="frame" x="214.5" y="136.5" width="184.5" height="50"/>
                             <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Answer4">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -124,7 +124,7 @@
                         <constraint firstItem="l7k-Wp-NEV" firstAttribute="top" secondItem="fYz-pK-XcF" secondAttribute="bottom" id="KPn-9Y-WyH"/>
                         <constraint firstItem="BGm-NT-rp2" firstAttribute="leading" secondItem="za8-E0-qAm" secondAttribute="trailing" id="LfJ-N1-jTD"/>
                         <constraint firstItem="fYz-pK-XcF" firstAttribute="leading" secondItem="za8-E0-qAm" secondAttribute="trailing" id="Mm6-yb-Oqi"/>
-                        <constraint firstAttribute="height" constant="160" id="OZ0-j1-CVc"/>
+                        <constraint firstAttribute="height" constant="190" id="OZ0-j1-CVc"/>
                         <constraint firstAttribute="bottom" secondItem="za8-E0-qAm" secondAttribute="bottom" id="QX5-rv-Qsi"/>
                         <constraint firstItem="2PU-Gt-INz" firstAttribute="leading" secondItem="4bA-Sz-iXx" secondAttribute="leading" id="RGA-yM-c35"/>
                         <constraint firstItem="2uS-QE-M8p" firstAttribute="width" secondItem="za8-E0-qAm" secondAttribute="width" id="RyC-z3-ndD"/>
@@ -162,7 +162,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyy-5I-R74" userLabel="Bottom View">
-                    <rect key="frame" x="0.0" y="160" width="414" height="20"/>
+                    <rect key="frame" x="0.0" y="189" width="414" height="20"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.7004841549295775" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="20" id="4Yq-1m-VgP"/>
@@ -181,7 +181,7 @@
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="294.20289855072468" y="319.41964285714283"/>
+            <point key="canvasLocation" x="294.20289855072468" y="293.63839285714283"/>
         </view>
     </objects>
 </document>

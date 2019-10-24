@@ -8,6 +8,7 @@
 
 import UIKit
 import ARKit
+import SCLAlertView
 
 class ViewController: UIViewController {
     
@@ -16,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreView: StatusView!
     var choiseView: ChoiseAnswerView!
     var guideView: GuideWayView!
-    var alertView: AlertView!
     
     var remainTimer: RemainTimerManager!
     var currentQuest: Quest!
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         self.scoreView.status = "0"
         
         let bottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
-        self.choiseView = ChoiseAnswerView(frame: CGRect(x: 0, y: screenHeight() - 160, width: screenWidth(), height: 160 + bottom))
+        self.choiseView = ChoiseAnswerView(frame: CGRect(x: 0, y: screenHeight() - 210, width: screenWidth(), height: 210 + bottom))
         self.choiseView.delegate = self
         self.choiseView.question = self.currentQuest.question
         self.choiseView.answer1 = self.currentQuest.answerCandidates[0]
@@ -55,10 +55,6 @@ class ViewController: UIViewController {
         self.guideView = GuideWayView(frame: CGRect(x: 0, y: screenHeight() - 100, width: screenWidth(), height: 100 + bottom))
         self.guideView.location = self.currentQuest.location
         self.view.addSubview(self.guideView)
-        
-        self.alertView = AlertView(frame: self.view.frame)
-        self.alertView.hide(isAnimated: false)
-        self.view.addSubview(self.alertView)
         
         self.remainTimer = RemainTimerManager()
         self.remainTimer.delegate = self
@@ -114,16 +110,24 @@ extension ViewController: ChoiseAnswerViewDelegate {
     func choiseAnswerView(_ choiseAnswerView: ChoiseAnswerView, didSelectAnswerAt index: Int) {
         let askingTime = questManager.endAsking()
         
+        let appearance = SCLAlertView.SCLAppearance(
+            kTitleFont: UIFont(name: "HelveticaNeue-Medium", size: 22)!,
+            kTextFont: UIFont(name: "HelveticaNeue", size: 17)!,
+            kButtonFont: UIFont(name: "HelveticaNeue-Bold", size: 17)!,
+            showCloseButton: true
+        )
+        let alert = SCLAlertView(appearance: appearance)
+        
         if self.currentQuest.answer == self.currentQuest.answerCandidates[index] {
             let message = "おめでとう！\n\(self.currentQuest.answerDescription)"
-            self.alertView.show(title: "正解！", message: message)
+            alert.showSuccess("正解！", subTitle: message, closeButtonTitle: "OK")
             
             scoreManager.add(askingTime: askingTime)
             self.scoreView.status = String(scoreManager.score)
         }
         else {
             let message = "残念！正解は\n「 \(self.currentQuest.answer) 」\n\(self.currentQuest.answerDescription)"
-            self.alertView.show(title: "不正解。。。", message: message)
+            alert.showError("不正解", subTitle: message, closeButtonTitle: "OK")
         }
         
         // reset nodes

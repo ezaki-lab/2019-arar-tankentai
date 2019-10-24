@@ -58,6 +58,7 @@
 		18C1885D2351AD4B005E2173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1885B2351AD4B005E2173 /* LaunchScreen.storyboard */; };
 		18CC7B03235EE2EB001EA852 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC7B01235EE2EB001EA852 /* Crashlytics.framework */; };
 		18CC7B04235EE2EB001EA852 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC7B02235EE2EB001EA852 /* Fabric.framework */; };
+		91B3EC5EC01164F3C8CA2F64 /* Pods_arar_tankentai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453B70512282C64F95A69098 /* Pods_arar_tankentai.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,9 @@
 		18C188642351B111005E2173 /* black-1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "black-1.mov"; sourceTree = "<group>"; };
 		18CC7B01235EE2EB001EA852 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		18CC7B02235EE2EB001EA852 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		453B70512282C64F95A69098 /* Pods_arar_tankentai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arar_tankentai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B55E0699FBB54139F6C9F4 /* Pods-arar-tankentai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arar-tankentai.release.xcconfig"; path = "Target Support Files/Pods-arar-tankentai/Pods-arar-tankentai.release.xcconfig"; sourceTree = "<group>"; };
+		D6300E8B2B723FE7D0E801AE /* Pods-arar-tankentai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arar-tankentai.debug.xcconfig"; path = "Target Support Files/Pods-arar-tankentai/Pods-arar-tankentai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 			files = (
 				18CC7B03235EE2EB001EA852 /* Crashlytics.framework in Frameworks */,
 				18CC7B04235EE2EB001EA852 /* Fabric.framework in Frameworks */,
+				91B3EC5EC01164F3C8CA2F64 /* Pods_arar_tankentai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +217,8 @@
 			children = (
 				18C188512351AD48005E2173 /* arar-tankentai */,
 				18C188502351AD48005E2173 /* Products */,
+				7FA5FBEC27299AB6D1DEC455 /* Pods */,
+				2A80D6A97CC07B7B50E79189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			tabWidth = 4;
@@ -253,6 +260,24 @@
 			path = "arar-tankentai";
 			sourceTree = "<group>";
 		};
+		2A80D6A97CC07B7B50E79189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453B70512282C64F95A69098 /* Pods_arar_tankentai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FA5FBEC27299AB6D1DEC455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6300E8B2B723FE7D0E801AE /* Pods-arar-tankentai.debug.xcconfig */,
+				51B55E0699FBB54139F6C9F4 /* Pods-arar-tankentai.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,10 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C188612351AD4B005E2173 /* Build configuration list for PBXNativeTarget "arar-tankentai" */;
 			buildPhases = (
+				9383D28C925FE1EE77F7E3B4 /* [CP] Check Pods Manifest.lock */,
 				18C1884B2351AD48005E2173 /* Sources */,
 				18C1884C2351AD48005E2173 /* Frameworks */,
 				18C1884D2351AD48005E2173 /* Resources */,
 				18CC7B00235EE0CB001EA852 /* ShellScript */,
+				BBA5733F9B809D68D0F90DF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -368,6 +395,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run c127828b76615ad03b8fe5950c815343aec4405d ab956a93aae72e88c425046ba8d65089e6ce7487706770f74475fb6271dce233\n";
+		};
+		9383D28C925FE1EE77F7E3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-arar-tankentai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA5733F9B809D68D0F90DF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-arar-tankentai/Pods-arar-tankentai-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-arar-tankentai/Pods-arar-tankentai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -534,6 +605,7 @@
 		};
 		18C188622351AD4B005E2173 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6300E8B2B723FE7D0E801AE /* Pods-arar-tankentai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -559,6 +631,7 @@
 		};
 		18C188632351AD4B005E2173 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B55E0699FBB54139F6C9F4 /* Pods-arar-tankentai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
