@@ -31,6 +31,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Camera
+        AVCaptureDevice.requestAccess(for: AVMediaType.video) { response in
+            if response {
+                print("カメラへのアクセスが許可されました。")
+            } else {
+                print("カメラへのアクセスが許可が無効です。")
+            }
+        }
+
+        
         self.currentQuest = questManager.generate()
         
         self.sceneView.delegate = self

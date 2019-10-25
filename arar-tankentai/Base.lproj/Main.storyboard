@@ -76,6 +76,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xHb-68-Obv">
                                 <rect key="frame" x="0.0" y="664.33333333333337" width="375" height="147.66666666666663"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3h-T1-8dZ">
+                                <rect key="frame" x="312" y="754" width="63" height="24"/>
+                                <color key="backgroundColor" red="0.3323477507" green="0.1891234517" blue="0.016099581490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -92,14 +99,17 @@
                             <constraint firstItem="Pgk-WO-4om" firstAttribute="top" secondItem="Ujn-Wd-EB7" secondAttribute="top" id="iZn-sW-cco"/>
                             <constraint firstItem="xHb-68-Obv" firstAttribute="top" secondItem="ccV-gP-wkI" secondAttribute="bottom" id="lpu-zc-pbh"/>
                             <constraint firstItem="ccV-gP-wkI" firstAttribute="height" secondItem="Pgk-WO-4om" secondAttribute="height" multiplier="2:1" id="oTw-ZA-WbM"/>
+                            <constraint firstItem="Tc1-B9-ZRS" firstAttribute="trailing" secondItem="x3h-T1-8dZ" secondAttribute="trailing" id="sDX-rg-66E"/>
                             <constraint firstItem="WPf-Sy-geN" firstAttribute="trailing" secondItem="Tc1-B9-ZRS" secondAttribute="trailing" id="sdP-cQ-IAi"/>
                             <constraint firstAttribute="bottom" secondItem="WPf-Sy-geN" secondAttribute="bottom" id="ufv-aD-jaA"/>
+                            <constraint firstItem="Tc1-B9-ZRS" firstAttribute="bottom" secondItem="x3h-T1-8dZ" secondAttribute="bottom" id="we2-fg-hEe"/>
                             <constraint firstItem="Tc1-B9-ZRS" firstAttribute="trailing" secondItem="Pgk-WO-4om" secondAttribute="trailing" id="wqa-8a-6v5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tc1-B9-ZRS"/>
                     </view>
                     <connections>
                         <outlet property="createrImageView" destination="w2r-u5-din" id="dFA-0Q-hRs"/>
+                        <outlet property="versionLabel" destination="x3h-T1-8dZ" id="Dgw-fr-t6c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mG7-jr-n1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

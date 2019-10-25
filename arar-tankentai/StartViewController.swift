@@ -10,6 +10,7 @@ import UIKit
 
 class StartViewController: UIViewController {
     
+    @IBOutlet weak var versionLabel: UILabel!
     @IBOutlet weak var createrImageView: UIImageView!
     
     let createrImageList: [UIImage] = [
@@ -23,6 +24,10 @@ class StartViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
+        let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
+        self.versionLabel.text = "  version: \(version)   build: \(build)  "
         
         self.createrImageView.layer.shadowColor = UIColor.black.cgColor
         self.createrImageView.layer.shadowOffset = .zero
