@@ -274,7 +274,6 @@
 				D6300E8B2B723FE7D0E801AE /* Pods-arar-tankentai.debug.xcconfig */,
 				51B55E0699FBB54139F6C9F4 /* Pods-arar-tankentai.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -610,7 +609,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.0.4;
+				CURRENT_PROJECT_VERSION = 1.0.0.5;
 				DEVELOPMENT_TEAM = UF4PY56C4U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,7 +635,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.0.4;
+				CURRENT_PROJECT_VERSION = 1.0.0.5;
 				DEVELOPMENT_TEAM = UF4PY56C4U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
