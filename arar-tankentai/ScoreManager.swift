@@ -14,7 +14,11 @@ class ScoreManager {
     
     var score: Int = 0
     
-    func add(askingTime time: Int) {
+    func add(score: Int) {
+        self.score += score
+    }
+    
+    func timeToScore(askingTime time: Int) -> Int {
         let sa = Double(AVERAGE_ASKING_TIME - time) / 2.0
         var score = 0
         if sa > 0 {
@@ -32,6 +36,6 @@ class ScoreManager {
                 score = MIN_SCORE
             }
         }
-        self.score += score
+        return score
     }
 }

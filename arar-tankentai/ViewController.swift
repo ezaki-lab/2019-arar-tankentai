@@ -119,11 +119,12 @@ extension ViewController: ChoiseAnswerViewDelegate {
         let alert = SCLAlertView(appearance: appearance)
         
         if self.currentQuest.answer == self.currentQuest.answerCandidates[index] {
-            let message = "おめでとう！\n\(self.currentQuest.answerDescription)"
-            alert.showSuccess("正解！", subTitle: message, closeButtonTitle: "OK")
-            
-            scoreManager.add(askingTime: askingTime)
+            let score = scoreManager.timeToScore(askingTime: askingTime)
+            scoreManager.add(score: score)
             self.scoreView.status = String(scoreManager.score)
+            
+            let message = "おめでとう！\n\(self.currentQuest.answerDescription)"
+            alert.showSuccess("正解！ \(score)点ゲット！", subTitle: message, closeButtonTitle: "OK")
         }
         else {
             let message = "残念！正解は\n「 \(self.currentQuest.answer) 」\n\(self.currentQuest.answerDescription)"
