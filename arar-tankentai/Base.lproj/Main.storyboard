@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Start View Controller-->
         <scene sceneID="rHp-ZC-O9z">
             <objects>
-                <viewController id="SgN-ea-OLi" sceneMemberID="viewController">
+                <viewController id="SgN-ea-OLi" customClass="StartViewController" customModule="ARAR探検隊" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ujn-Wd-EB7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,6 +98,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tc1-B9-ZRS"/>
                     </view>
+                    <connections>
+                        <outlet property="createrImageView" destination="w2r-u5-din" id="dFA-0Q-hRs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mG7-jr-n1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
